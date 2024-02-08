@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="tests" thread-count="2">
+    <test name="TestFirefox">
+        <parameter name="browserName" value="Chrome" />
+        <classes>
+            <class name="com.swaglabs.test.loginTest" />
+            <class name="com.swaglabs.test.InventoryTest" />
+            <class name="com.swaglabs.test.productPageTest" />
+            <class name="com.swaglabs.test.CartTest" />
+            <class name="com.swaglabs.test.CheckOutStep1Test" />
+            <class name="com.swaglabs.test.CheckOutStep2Test" />
+            <class name="com.swaglabs.test.CheckOutFinalTest" />
+            
+           
+            
+        </classes>
+    </test>
+    
+</suite>

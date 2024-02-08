@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ParallelSuite" class="navigator-link">
+              <span class="suite-name border-failed">ParallelSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ParallelSuite" class="navigator-link ">
+                    <span>C:\Users\prati\OneDrive\Desktop\Java Projects\SwagLabs\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ParallelSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ParallelSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ParallelSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ParallelSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ParallelSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ParallelSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 1 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ParallelSuite" class="hide-methods failed suite-ParallelSuite"> (hide)</a> <!-- hide-methods failed suite-ParallelSuite -->
+                      <a href="#" panel-name="suite-ParallelSuite" class="show-methods failed suite-ParallelSuite"> (show)</a> <!-- show-methods failed suite-ParallelSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-ParallelSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep1Test" class="method navigator-link" hash-for-method="AddSpecCharOrAlphabetsIntoZipCode">AddSpecCharOrAlphabetsIntoZipCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ParallelSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ParallelSuite" class="hide-methods passed suite-ParallelSuite"> (hide)</a> <!-- hide-methods passed suite-ParallelSuite -->
+                      <a href="#" panel-name="suite-ParallelSuite" class="show-methods passed suite-ParallelSuite"> (show)</a> <!-- show-methods passed suite-ParallelSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ParallelSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.productPageTest" class="method navigator-link" hash-for-method="AddToCartbackpack">AddToCartbackpack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep1Test" class="method navigator-link" hash-for-method="ClickOnCancelBtn">ClickOnCancelBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep1Test" class="method navigator-link" hash-for-method="EnterValidData">EnterValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.productPageTest" class="method navigator-link" hash-for-method="ProdDetailsOnProdPage">ProdDetailsOnProdPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.productPageTest" class="method navigator-link" hash-for-method="Removefromthecart">Removefromthecart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep2Test" class="method navigator-link" hash-for-method="VerifyCancelPayment">VerifyCancelPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="VerifyDdPriceLowToHigh">VerifyDdPriceLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep2Test" class="method navigator-link" hash-for-method="VerifyFinishPayment">VerifyFinishPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep2Test" class="method navigator-link" hash-for-method="VerifyProdDetails">VerifyProdDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CartTest" class="method navigator-link" hash-for-method="VerifyProdDetailsOnCartPage">VerifyProdDetailsOnCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutFinalTest" class="method navigator-link" hash-for-method="VerifyThankUAndOrderMsg">VerifyThankUAndOrderMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep2Test" class="method navigator-link" hash-for-method="VerifyTotalAmount">VerifyTotalAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="VerifydropdownAtoZ">VerifydropdownAtoZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="blankUnamePass">blankUnamePass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="blnkUnameValidPass">blnkUnameValidPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutFinalTest" class="method navigator-link" hash-for-method="clickOnBackHome">clickOnBackHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="clickOnCartLogo">clickOnCartLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CartTest" class="method navigator-link" hash-for-method="clickOnCheckOut">clickOnCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep1Test" class="method navigator-link" hash-for-method="clickOnContinue">clickOnContinue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CartTest" class="method navigator-link" hash-for-method="clickOnContinueShopping">clickOnContinueShopping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CartTest" class="method navigator-link" hash-for-method="clickOnRemove">clickOnRemove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="clickOnRemoveBtn">clickOnRemoveBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="clickOnburgerMenu">clickOnburgerMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="clikOnProductTitle">clikOnProductTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="invalidPass">invalidPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="invaliduName">invaliduName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep1Test" class="method navigator-link" hash-for-method="keepFNblank">keepFNblank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep1Test" class="method navigator-link" hash-for-method="keepLNblank">keepLNblank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.CheckOutStep1Test" class="method navigator-link" hash-for-method="keepZipCodeblank">keepZipCodeblank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="lockedOutUser">lockedOutUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="selectName_zTOA_fromDD">selectName_zTOA_fromDD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="testbagpackAddToCart">testbagpackAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="validunameablankpass">validunameablankpass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="valuNamePass(problem_user, secret_sauce)">valuNamePass(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="valuNamePass(error_user, secret_sauce)">valuNamePass(error_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="valuNamePass(performance_glitch_user, secret_sauce)">valuNamePass(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="valuNamePass(standard_user, secret_sauce)">valuNamePass(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.loginTest" class="method navigator-link" hash-for-method="valuNamePass(visual_user, secret_sauce)">valuNamePass(visual_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelSuite" title="com.swaglabs.test.InventoryTest" class="method navigator-link" hash-for-method="verifySauceLabsBackpackTitle">verifySauceLabsBackpackTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ParallelSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ParallelSuite" class="panel ParallelSuite">
+          <div class="suite-ParallelSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.swaglabs.test.CheckOutStep1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddSpecCharOrAlphabetsIntoZipCode">
+                  </a> <!-- AddSpecCharOrAlphabetsIntoZipCode -->
+                  <span class="method-name">AddSpecCharOrAlphabetsIntoZipCode</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;checkout_info_container&quot;]/div/form/div[1]/div[4]/h3&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e135037cb9caa062de2dbb977458050, findElement {using=xpath, value=//*[@id=&quot;checkout_info_container&quot;]/div/form/div[1]/div[4]/h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\prati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57406/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e135037cb9caa062de2dbb977458050
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.swaglabs.pages.CheckoutPageStep1.errorMsg(CheckoutPageStep1.java:87)
+	at com.swaglabs.test.CheckOutStep1Test.AddSpecCharOrAlphabetsIntoZipCode(CheckOutStep1Test.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-failed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swaglabs.test.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProdDetailsOnCartPage">
+                  </a> <!-- VerifyProdDetailsOnCartPage -->
+                  <span class="method-name">VerifyProdDetailsOnCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCheckOut">
+                  </a> <!-- clickOnCheckOut -->
+                  <span class="method-name">clickOnCheckOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnContinueShopping">
+                  </a> <!-- clickOnContinueShopping -->
+                  <span class="method-name">clickOnContinueShopping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnRemove">
+                  </a> <!-- clickOnRemove -->
+                  <span class="method-name">clickOnRemove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swaglabs.test.loginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankUnamePass">
+                  </a> <!-- blankUnamePass -->
+                  <span class="method-name">blankUnamePass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blnkUnameValidPass">
+                  </a> <!-- blnkUnameValidPass -->
+                  <span class="method-name">blnkUnameValidPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPass">
+                  </a> <!-- invalidPass -->
+                  <span class="method-name">invalidPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invaliduName">
+                  </a> <!-- invaliduName -->
+                  <span class="method-name">invaliduName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lockedOutUser">
+                  </a> <!-- lockedOutUser -->
+                  <span class="method-name">lockedOutUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validunameablankpass">
+                  </a> <!-- validunameablankpass -->
+                  <span class="method-name">validunameablankpass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valuNamePass(problem_user, secret_sauce)">
+                  </a> <!-- valuNamePass(problem_user, secret_sauce) -->
+                  <span class="method-name">valuNamePass</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valuNamePass(error_user, secret_sauce)">
+                  </a> <!-- valuNamePass(error_user, secret_sauce) -->
+                  <span class="method-name">valuNamePass</span>
+                  <span class="parameters">(error_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valuNamePass(performance_glitch_user, secret_sauce)">
+                  </a> <!-- valuNamePass(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">valuNamePass</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valuNamePass(standard_user, secret_sauce)">
+                  </a> <!-- valuNamePass(standard_user, secret_sauce) -->
+                  <span class="method-name">valuNamePass</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valuNamePass(visual_user, secret_sauce)">
+                  </a> <!-- valuNamePass(visual_user, secret_sauce) -->
+                  <span class="method-name">valuNamePass</span>
+                  <span class="parameters">(visual_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swaglabs.test.CheckOutFinalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyThankUAndOrderMsg">
+                  </a> <!-- VerifyThankUAndOrderMsg -->
+                  <span class="method-name">VerifyThankUAndOrderMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnBackHome">
+                  </a> <!-- clickOnBackHome -->
+                  <span class="method-name">clickOnBackHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swaglabs.test.CheckOutStep1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnCancelBtn">
+                  </a> <!-- ClickOnCancelBtn -->
+                  <span class="method-name">ClickOnCancelBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterValidData">
+                  </a> <!-- EnterValidData -->
+                  <span class="method-name">EnterValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnContinue">
+                  </a> <!-- clickOnContinue -->
+                  <span class="method-name">clickOnContinue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="keepFNblank">
+                  </a> <!-- keepFNblank -->
+                  <span class="method-name">keepFNblank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="keepLNblank">
+                  </a> <!-- keepLNblank -->
+                  <span class="method-name">keepLNblank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="keepZipCodeblank">
+                  </a> <!-- keepZipCodeblank -->
+                  <span class="method-name">keepZipCodeblank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swaglabs.test.CheckOutStep2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCancelPayment">
+                  </a> <!-- VerifyCancelPayment -->
+                  <span class="method-name">VerifyCancelPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFinishPayment">
+                  </a> <!-- VerifyFinishPayment -->
+                  <span class="method-name">VerifyFinishPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyProdDetails">
+                  </a> <!-- VerifyProdDetails -->
+                  <span class="method-name">VerifyProdDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTotalAmount">
+                  </a> <!-- VerifyTotalAmount -->
+                  <span class="method-name">VerifyTotalAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swaglabs.test.productPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartbackpack">
+                  </a> <!-- AddToCartbackpack -->
+                  <span class="method-name">AddToCartbackpack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProdDetailsOnProdPage">
+                  </a> <!-- ProdDetailsOnProdPage -->
+                  <span class="method-name">ProdDetailsOnProdPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Removefromthecart">
+                  </a> <!-- Removefromthecart -->
+                  <span class="method-name">Removefromthecart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+          <div class="suite-ParallelSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swaglabs.test.InventoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDdPriceLowToHigh">
+                  </a> <!-- VerifyDdPriceLowToHigh -->
+                  <span class="method-name">VerifyDdPriceLowToHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifydropdownAtoZ">
+                  </a> <!-- VerifydropdownAtoZ -->
+                  <span class="method-name">VerifydropdownAtoZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCartLogo">
+                  </a> <!-- clickOnCartLogo -->
+                  <span class="method-name">clickOnCartLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnRemoveBtn">
+                  </a> <!-- clickOnRemoveBtn -->
+                  <span class="method-name">clickOnRemoveBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnburgerMenu">
+                  </a> <!-- clickOnburgerMenu -->
+                  <span class="method-name">clickOnburgerMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clikOnProductTitle">
+                  </a> <!-- clikOnProductTitle -->
+                  <span class="method-name">clikOnProductTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectName_zTOA_fromDD">
+                  </a> <!-- selectName_zTOA_fromDD -->
+                  <span class="method-name">selectName_zTOA_fromDD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testbagpackAddToCart">
+                  </a> <!-- testbagpackAddToCart -->
+                  <span class="method-name">testbagpackAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySauceLabsBackpackTitle">
+                  </a> <!-- verifySauceLabsBackpackTitle -->
+                  <span class="method-name">verifySauceLabsBackpackTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelSuite-class-passed -->
+        </div> <!-- panel ParallelSuite -->
+        <div panel-name="test-xml-ParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\prati\OneDrive\Desktop\Java Projects\SwagLabs\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ParallelSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;TestFirefox&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.swaglabs.test.loginTest&quot;/&gt;
+      &lt;class name=&quot;com.swaglabs.test.InventoryTest&quot;/&gt;
+      &lt;class name=&quot;com.swaglabs.test.productPageTest&quot;/&gt;
+      &lt;class name=&quot;com.swaglabs.test.CartTest&quot;/&gt;
+      &lt;class name=&quot;com.swaglabs.test.CheckOutStep1Test&quot;/&gt;
+      &lt;class name=&quot;com.swaglabs.test.CheckOutStep2Test&quot;/&gt;
+      &lt;class name=&quot;com.swaglabs.test.CheckOutFinalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestFirefox --&gt;
+&lt;/suite&gt; &lt;!-- ParallelSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ParallelSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestFirefox (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ParallelSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ParallelSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ParallelSuite');
+function tableData_ParallelSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Removefromthecart')
+data.setCell(0, 2, 'com.swaglabs.test.productPageTest')
+data.setCell(0, 3, 12520);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddSpecCharOrAlphabetsIntoZipCode')
+data.setCell(1, 2, 'com.swaglabs.test.CheckOutStep1Test')
+data.setCell(1, 3, 11879);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickOnRemoveBtn')
+data.setCell(2, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(2, 3, 11478);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyTotalAmount')
+data.setCell(3, 2, 'com.swaglabs.test.CheckOutStep2Test')
+data.setCell(3, 3, 6781);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'valuNamePass')
+data.setCell(4, 2, 'com.swaglabs.test.loginTest')
+data.setCell(4, 3, 6543);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'AddToCartbackpack')
+data.setCell(5, 2, 'com.swaglabs.test.productPageTest')
+data.setCell(5, 3, 3655);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickOnBackHome')
+data.setCell(6, 2, 'com.swaglabs.test.CheckOutFinalTest')
+data.setCell(6, 3, 2999);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testbagpackAddToCart')
+data.setCell(7, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(7, 3, 2986);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifydropdownAtoZ')
+data.setCell(8, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(8, 3, 2658);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickOnContinueShopping')
+data.setCell(9, 2, 'com.swaglabs.test.CartTest')
+data.setCell(9, 3, 2564);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'clikOnProductTitle')
+data.setCell(10, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(10, 3, 2560);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickOnCheckOut')
+data.setCell(11, 2, 'com.swaglabs.test.CartTest')
+data.setCell(11, 3, 2533);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ProdDetailsOnProdPage')
+data.setCell(12, 2, 'com.swaglabs.test.productPageTest')
+data.setCell(12, 3, 2458);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyThankUAndOrderMsg')
+data.setCell(13, 2, 'com.swaglabs.test.CheckOutFinalTest')
+data.setCell(13, 3, 1980);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyCancelPayment')
+data.setCell(14, 2, 'com.swaglabs.test.CheckOutStep2Test')
+data.setCell(14, 3, 1928);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyProdDetails')
+data.setCell(15, 2, 'com.swaglabs.test.CheckOutStep2Test')
+data.setCell(15, 3, 1847);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyFinishPayment')
+data.setCell(16, 2, 'com.swaglabs.test.CheckOutStep2Test')
+data.setCell(16, 3, 1829);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'clickOnContinue')
+data.setCell(17, 2, 'com.swaglabs.test.CheckOutStep1Test')
+data.setCell(17, 3, 1818);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'keepZipCodeblank')
+data.setCell(18, 2, 'com.swaglabs.test.CheckOutStep1Test')
+data.setCell(18, 3, 1773);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'keepLNblank')
+data.setCell(19, 2, 'com.swaglabs.test.CheckOutStep1Test')
+data.setCell(19, 3, 1755);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'EnterValidData')
+data.setCell(20, 2, 'com.swaglabs.test.CheckOutStep1Test')
+data.setCell(20, 3, 1723);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'keepFNblank')
+data.setCell(21, 2, 'com.swaglabs.test.CheckOutStep1Test')
+data.setCell(21, 3, 1677);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ClickOnCancelBtn')
+data.setCell(22, 2, 'com.swaglabs.test.CheckOutStep1Test')
+data.setCell(22, 3, 1648);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'VerifyDdPriceLowToHigh')
+data.setCell(23, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(23, 3, 1604);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'selectName_zTOA_fromDD')
+data.setCell(24, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(24, 3, 1586);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'clickOnRemove')
+data.setCell(25, 2, 'com.swaglabs.test.CartTest')
+data.setCell(25, 3, 1533);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifySauceLabsBackpackTitle')
+data.setCell(26, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(26, 3, 1529);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'valuNamePass')
+data.setCell(27, 2, 'com.swaglabs.test.loginTest')
+data.setCell(27, 3, 1503);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'VerifyProdDetailsOnCartPage')
+data.setCell(28, 2, 'com.swaglabs.test.CartTest')
+data.setCell(28, 3, 1495);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'valuNamePass')
+data.setCell(29, 2, 'com.swaglabs.test.loginTest')
+data.setCell(29, 3, 1492);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'valuNamePass')
+data.setCell(30, 2, 'com.swaglabs.test.loginTest')
+data.setCell(30, 3, 1461);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'valuNamePass')
+data.setCell(31, 2, 'com.swaglabs.test.loginTest')
+data.setCell(31, 3, 1423);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'clickOnburgerMenu')
+data.setCell(32, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(32, 3, 1396);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'lockedOutUser')
+data.setCell(33, 2, 'com.swaglabs.test.loginTest')
+data.setCell(33, 3, 1371);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'clickOnCartLogo')
+data.setCell(34, 2, 'com.swaglabs.test.InventoryTest')
+data.setCell(34, 3, 1352);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'invalidPass')
+data.setCell(35, 2, 'com.swaglabs.test.loginTest')
+data.setCell(35, 3, 1345);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'blnkUnameValidPass')
+data.setCell(36, 2, 'com.swaglabs.test.loginTest')
+data.setCell(36, 3, 1343);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'validunameablankpass')
+data.setCell(37, 2, 'com.swaglabs.test.loginTest')
+data.setCell(37, 3, 1342);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'blankUnamePass')
+data.setCell(38, 2, 'com.swaglabs.test.loginTest')
+data.setCell(38, 3, 1332);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'invaliduName')
+data.setCell(39, 2, 'com.swaglabs.test.loginTest')
+data.setCell(39, 3, 1326);
+window.suiteTableData['ParallelSuite']= { tableData: data, tableDiv: 'times-div-ParallelSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-ParallelSuite">
+              </div> <!-- times-div-ParallelSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ParallelSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ParallelSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutStep1Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddSpecCharOrAlphabetsIntoZipCode</span>
+                <span class="method-start">1861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13750 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.productPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartbackpack</span>
+                <span class="method-start">15186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18842 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutStep1Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnCancelBtn</span>
+                <span class="method-start">20176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnterValidData</span>
+                <span class="method-start">23182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24905 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.productPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProdDetailsOnProdPage</span>
+                <span class="method-start">26162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Removefromthecart</span>
+                <span class="method-start">29947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42468 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutStep2Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyCancelPayment</span>
+                <span class="method-start">43818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45747 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.InventoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyDdPriceLowToHigh</span>
+                <span class="method-start">47064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48669 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutStep2Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyFinishPayment</span>
+                <span class="method-start">49900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">51847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyProdDetails</span>
+                <span class="method-start">52930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54777 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyProdDetailsOnCartPage</span>
+                <span class="method-start">56055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57550 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutFinalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">57664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyThankUAndOrderMsg</span>
+                <span class="method-start">58763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60744 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutStep2Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTotalAmount</span>
+                <span class="method-start">62084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68867 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.InventoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">68975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifydropdownAtoZ</span>
+                <span class="method-start">70141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72799 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutFinalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnBackHome</span>
+                <span class="method-start">74038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77037 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.InventoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">77191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnCartLogo</span>
+                <span class="method-start">78307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79660 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnCheckOut</span>
+                <span class="method-start">80858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83395 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutStep1Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnContinue</span>
+                <span class="method-start">84638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86457 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">86630 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnContinueShopping</span>
+                <span class="method-start">87662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">90402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnRemove</span>
+                <span class="method-start">91581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93115 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.InventoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">93231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnRemoveBtn</span>
+                <span class="method-start">94332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">105937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnburgerMenu</span>
+                <span class="method-start">107251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">108759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clikOnProductTitle</span>
+                <span class="method-start">109862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112424 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.CheckOutStep1Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">112560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">keepFNblank</span>
+                <span class="method-start">113700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115377 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">115488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">keepLNblank</span>
+                <span class="method-start">116538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">keepZipCodeblank</span>
+                <span class="method-start">119492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121265 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.InventoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">121368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectName_zTOA_fromDD</span>
+                <span class="method-start">122503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">124208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testbagpackAddToCart</span>
+                <span class="method-start">124999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">128103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySauceLabsBackpackTitle</span>
+                <span class="method-start">129175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">130705 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swaglabs.test.loginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valuNamePass(standard_user, secret_sauce)</span>
+                <span class="method-start">132326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valuNamePass(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">135158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">141733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">141994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valuNamePass(error_user, secret_sauce)</span>
+                <span class="method-start">143203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">144758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valuNamePass(visual_user, secret_sauce)</span>
+                <span class="method-start">145892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">147502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valuNamePass(problem_user, secret_sauce)</span>
+                <span class="method-start">148631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">150054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">150159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankUnamePass</span>
+                <span class="method-start">151331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">152780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invaliduName</span>
+                <span class="method-start">153918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">155244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">155364 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPass</span>
+                <span class="method-start">156526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">157871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">157980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blnkUnameValidPass</span>
+                <span class="method-start">159040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160386 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">160538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validunameablankpass</span>
+                <span class="method-start">161733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">163099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">163260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lockedOutUser</span>
+                <span class="method-start">164398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165769 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
